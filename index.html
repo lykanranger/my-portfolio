@@ -6,111 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
   </head>
   <body>
-
-     <!-- Navbar -->
-
-    <nav id="desktop-nav">
-      <a href="#">
-        <img class="logo" src="assets/logo.png">
-        </a>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <img class="logo" src="assets/logo.png">
-      <div class="hamburger-menu">
-        <div class="hamburger-icon"onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
-          <li><a href="#education" onclick="toggleMenu()">EDUCATION</a></li>
-          <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
-        </div>
-      </div>
-    </nav>
-
-     <!-- Profile -->
-
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.jpeg" alt="karun profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <p class="section_text">KARUN BINNY</p>
-        <p class="section_text_p2">Pursuing MCA🧑🏽‍💻 | BCA🎓</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-1"
-            onclick="window.open('./assets/RESUME.pdf')">
-            RESUME
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            CONTACT 
-          </button>
-      </div>
-    </section>
-
-     <!-- About -->
-
-     <section id="about">
-      <h1 class="title">ABOUT ME</h1>
-          <div class="text-container1">
-            <p class="txt">
-              "As a BCA graduate currently pursuing MCA, I have a strong passion
-               for technology and a solid foundation in software development with
-               expertise in programming laguages. Along with that, i am also aiming
-               for a transition into project management. With leadership, communication
-               and presentation skills with a collaborative approach I excel in 
-               adapting to new environments, managing a team, and  
-               resources effectively. I am eager to expand my skills and contribute into 
-               innovative projects in the evolving tech landscape."
-            </p>
-            <div class="logo1_container">
-              <img class="logo1" src="assets/pic.png">
-          </div>
-          </div>
-        </div>
-      </div>
-     </section>  
-
-     <!-- Education -->
-
-     <section id="education">
-      <h1 class="title">EDUCATION</h1>
-      <div class="card-container">
-       <div class="card"> 
-        <h1>MASTERS 🧑🏽‍🎓</h1>
-         <p class="pgt">Pursuing MCA from Kristu Jyoti College</p>
-         <p>(2024-Present)</p>
-       </div>
-       <div class="card">
-        <h1>DEGREE 🎓</h1>
-         <p class="pgt">Bachelor's Degree from Kristu Jyoti College</p>
-        <p>(2021-24)</p>
-       </div>
-      <div class="card">
-        <h1>CSE 🧑🏽‍💻</h1>
-         <p class="pgt">Higher Secondary Education from NSS HSS Karukachal</p>
-         <p>(2019-21)</p>
-      </div>
-     </section>
 
      <!-- Skills -->
 
@@ -122,8 +19,8 @@
             <img src="./logos/python.png" alt="">
             <img src="./logos/java.png" alt="">
             <img src="./logos/C.png" alt="">
-            <img src="./logos/css.png" alt="">
             <img src="./logos/adobe.png" alt="">
+            <img src="./logos/css.png" alt="">            
             <img src="./logos/word.png" alt="">
             <img src="./logos/figma.png" alt="">
             <img src="./logos/photoshop.png" alt="">
@@ -143,8 +40,8 @@
             <img src="./logos/python.png" alt="">
             <img src="./logos/java.png" alt="">
             <img src="./logos/C.png" alt="">
-            <img src="./logos/css.png" alt="">
             <img src="./logos/adobe.png" alt="">
+            <img src="./logos/css.png" alt="">
             <img src="./logos/word.png" alt="">
             <img src="./logos/figma.png" alt="">
             <img src="./logos/photoshop.png" alt="">
@@ -160,72 +57,7 @@
             <img src="./logos/bootstrap.png" alt="">
         </div>
     </section>
-
-     <!-- Projects -->
-
-     <section class="section" id="projects">
-      <h1 class="title">PROJECTS</h1>
-      <div class="projects-container">
-        <div class="project-item">
-            <h3 class="project-title">E-Commerce Website</h3>
-            <p class="project-description">Developed a fully functional e-commerce website using HTML, CSS, PHP, and SQL.</p>
-        </div>
-        <div class="project-item">
-            <h3 class="project-title">Pet Rescue Website</h3>
-            <p class="project-description">Created a pet rescue website using Python, MySQL, and Django for the final year project.</p>
-        </div>
-        <div class="project-item">
-            <h3 class="project-title">Portfolio Website</h3>
-            <p class="project-description">Designed and built a personal portfolio website to showcase skills and projects.</p>
-        </div>
-        <div class="project-item">
-            <h3 class="project-title">Calculator App</h3>
-            <p class="project-description">Developed a simple calculator application using JavaScript and CSS.</p>
-        </div>
-      </div>
-     </section>
-
-     <!-- Contact -->
-
-    <section id="contact">
-      <h1 class="title">CONTACT</h1>
-      <div class="contact-info">
-        <a href="mailto:karunbinny867@gmail.com" style="text-decoration: none; color: inherit;">
-        <div class="ccard">
-          <i class="ccard-icon fa fa-envelope"></i>
-        </div></a> 
-        <a href="tel:+917994444938" style="text-decoration: none; color: inherit;">
-        <div class="ccard">
-          <i class="ccard-icon fa fa-phone"></i>
-        </div></a>
-        <a href="https://maps.app.goo.gl/LWPYSk3hAcnmgp8o8" style="text-decoration: none; color: inherit;">
-        <div class="ccard">
-          <i class="ccard-icon fa fa-map-marker"></i>
-        </div></a>
-      </div>
-      <div class="wrapper">
-        <div class="button">
-          <div class="icon" onclick="location.href='https://www.facebook.com/karun.binny.9'">
-          <i class="fa fa-facebook"></i>
-          </div>
-        </div>
-        <div class="button">
-          <div class="icon" onclick="location.href='https://www.twitter.com/karun_binny/'">
-            <i class="fa fa-twitter"></i>
-          </div>
-          </div>
-          <div class="button">
-          <div class="icon" onclick="location.href='https://www.instagram.com/karunbinny/'">
-            <i class="fa fa-instagram"></i>
-          </div>
-          </div>
-          <div class="button">
-          <div class="icon" onclick="location.href='https://web.whatsapp.com/7994444938'">
-            <i class="fa fa-whatsapp"></i>
-          </div>
-        </div>
-      </div>
-    </section>
+    <p class="subtitle">*** All the technologies and tools that I have worked with ***</p>
      
     <script src="script.js"></script>
   </body>
